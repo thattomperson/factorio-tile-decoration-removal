@@ -1,0 +1,29 @@
+{
+
+    "factorio.workspace.library": ".vscode/lib",
+    "Lua.runtime.plugin": ".vscode/lua/plugin.lua",
+    "Lua.diagnostics.globals": [
+        "mods",
+        "table_size",
+        "log",
+        "localised_print",
+        "serpent",
+        "global",
+        "__DebugAdapter",
+        "__Profiler"
+    ],
+    "Lua.runtime.version": "Lua 5.2",
+    "factorio.versions": [
+        {
+            "name": "Local",
+            "factorioPath": "${workspaceFolder}/.vscode/factorio/bin/x64/factorio",
+            "active": true,
+            "configPath": "${workspaceFolder}/.vscode/factorio/config/config.ini"
+        }
+    ],
+    "Lua.workspace.library": [
+        "${workspaceFolder}/.vscode/factorio/data",
+        "${workspaceFolder}/.vscode/factorio/data/base",
+        "${workspaceFolder}/.vscode/lua/factorio-plugin"
+    ],
+}

@@ -1,0 +1,8 @@
+{
+  "title"            : "Tom's Utils",
+  "name"             : "toms-utils",
+  "author"           : "ThatTomPerson",
+  "version"          : "0.0.1",
+  "factorio_version" : "1.1",
+  "dependencies"     : ["?base >= 1.1"]
+}
