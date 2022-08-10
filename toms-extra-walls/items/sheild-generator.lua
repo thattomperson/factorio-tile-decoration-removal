@@ -162,7 +162,7 @@ data:extend { {
   -- At the beginning it's easiest to copy the whole prototype
   -- of a vanilla entity and remove / change the bits you don't need.
 
-  type      = 'accumulator',
+  type      = 'electric-energy-interface',
   name      = entity 'sheild-generator',
   flags     = { 'placeable-neutral', 'player-creation' },
   icon      = sprite 'hcg-item.png',
@@ -174,6 +174,7 @@ data:extend { {
     mining_time = 0.5,
     result      = item 'sheild-generator'
   },
+  
 
   max_health = 150,
   corpse = 'small-remnants', --what remains when the entity is destroyed.
@@ -183,6 +184,7 @@ data:extend { {
   collision_box= {{-1.2, -1.2}, {1.2, 1.2}},
   selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 
+  
 
   energy_source = {
     type = 'electric',
@@ -194,7 +196,7 @@ data:extend { {
     -- Because the HCG is technically an accumulator, so it's natural
     -- behavior is to take energy from the grid and store it. But as
     -- I want it to be only charged by hand I have to prevent that.
-    input_flow_limit = '0kW',
+    input_flow_limit = '200kW',
 
     -- The mod settings take numbers, but prototypes must define energy
     -- related values as strings, so I have to convert them.

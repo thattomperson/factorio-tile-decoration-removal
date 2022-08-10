@@ -17,9 +17,10 @@ local sounds = require("__base__.prototypes.entity.sounds")
 data:extend { {
     type = "wall",
     name = entity "shield-wall",
+    healing_per_tick = 5,
     icon = "__base__/graphics/icons/wall.png",
     icon_size = 64, icon_mipmaps = 4,
-    flags = { "placeable-player", "player-creation", "not-repairable" },
+    flags = { "not-repairable" },
     collision_box = { { -0.29, -0.29 }, { 0.29, 0.29 } },
     -- selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
     damaged_trigger_effect = hit_effects.wall(),
