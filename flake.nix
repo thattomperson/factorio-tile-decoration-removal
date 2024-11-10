@@ -21,6 +21,7 @@
         devShells.default =  let
           factorio = pkgs.factorio-space-age-experimental.override {
             username = "thattomperson";
+            # this token has been revoked
             token = "ba3f83de87674ab17995af5d2af8a5";
           };
           defaultConfig = pkgs.writeTextFile {

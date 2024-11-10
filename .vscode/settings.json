@@ -26,6 +26,8 @@
         "/nix/store/mbnsk3fpsgk9vs9x47n21lykxqjiwdvz-factorio-space-age-2.0.11/share/factorio/data/base",
         "${workspaceFolder}/.vscode/lua/factorio-plugin"
     ],
-    "Lua.workspace.userThirdParty": [],
+    "Lua.workspace.userThirdParty": [
+        "/home/tom/.config/Code/User/workspaceStorage/e623b9dde400e419f8810c090fa705d2/justarandomgeek.factoriomod-debug/sumneko-3rd"
+    ],
     "Lua.workspace.checkThirdParty": "ApplyInMemory",
 }
