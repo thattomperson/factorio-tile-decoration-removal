@@ -1,5 +1,4 @@
 {
-
     "factorio.workspace.library": ".vscode/lib",
     "Lua.runtime.plugin": ".vscode/lua/plugin.lua",
     "Lua.diagnostics.globals": [
@@ -16,14 +15,17 @@
     "factorio.versions": [
         {
             "name": "Local",
-            "factorioPath": "${workspaceFolder}/.vscode/factorio/bin/x64/factorio",
-            "active": true,
-            "configPath": "${workspaceFolder}/.vscode/factorio/config/config.ini"
+            "factorioPath": "/nix/store/mbnsk3fpsgk9vs9x47n21lykxqjiwdvz-factorio-space-age-2.0.11/bin/factorio",
+            "configPath": "${workspaceFolder}/.vscode/config.ini",
+            "docsPath": "../../share/factorio/doc-html/runtime-api.json",
+            "active": true
         }
     ],
     "Lua.workspace.library": [
-        "${workspaceFolder}/.vscode/factorio/data",
-        "${workspaceFolder}/.vscode/factorio/data/base",
+        "/nix/store/mbnsk3fpsgk9vs9x47n21lykxqjiwdvz-factorio-space-age-2.0.11/share/factorio/data",
+        "/nix/store/mbnsk3fpsgk9vs9x47n21lykxqjiwdvz-factorio-space-age-2.0.11/share/factorio/data/base",
         "${workspaceFolder}/.vscode/lua/factorio-plugin"
     ],
+    "Lua.workspace.userThirdParty": [],
+    "Lua.workspace.checkThirdParty": "ApplyInMemory",
 }

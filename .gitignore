@@ -1,9 +1,10 @@
 .vscode/*
 !.vscode/*.json
+.vscode/settings.json
 !.vscode/lua
 
 *.zip
 mod-list.json
 mod-settings.dat
 
-eradicators-hand-crank-generator
+.env
