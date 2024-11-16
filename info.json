@@ -1,0 +1,19 @@
+{
+  "name": "tile-decoration-removal",
+  "version": "0.0.4",
+  "title": "Tile Decoration Removal",
+  "author": "ThatTomPerson",
+  "homepage": "https://github.com/thattomperson/factorio-tile-decoration-removal",
+  "description": "Removes all decorations from tiles in the game, No more grass on my concrete",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base"
+  ],
+  "quality_required": false,
+  "rail_bridges_required": false,
+  "space_travel_required": false,
+  "spoiling_required": false,
+  "freezing_required": false,
+  "segmented_units_required": false,
+  "expansion_shaders_required": false
+}

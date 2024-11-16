@@ -1,3 +1,7 @@
 {
-    "recommendations": ["sumneko.lua", "justarandomgeek.factoriomod-debug"]
+    "recommendations": [
+        "justarandomgeek.factoriomod-debug",
+        "sumneko.lua",
+        "usernamehw.errorlens"
+    ]
 }
